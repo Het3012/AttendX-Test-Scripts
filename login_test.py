@@ -4,4 +4,5 @@ def login(user, pwd):
 
 assert login("student1", "pass123") == True
 assert login("student1", "wrong") == False
+assert login("", "") == False
 print("Login tests passed")
